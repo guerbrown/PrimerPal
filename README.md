@@ -13,9 +13,9 @@
 To run this program, please open config.yaml and adjust lines 4-7 to match your directory layout. Then, ensure you have executable permissions on the run-PrimerPal.sh file (chmod +x ...) and run it like a typical .sh file (./run-PrimerPal.sh).
 
 ##### Input data structure:
-- Sample-List.csv
+- Sample-List.csv:
 This file should have three columns. One for the name of your sample, one for the Forward-Primer name, and one for the Reverse-Primer name.
-- Primer-Sequences.csv
+- Primer-Sequences.csv:
 This file should contain the names of the primers and the label sequence. The primer sequence is optional since the program will request it upon running run-PrimerPal.sh. However, it is nice to have the primer sequence in a common place so that you can copy and paste.
 
 Note: PrimerPal requests a manual input of the forward and reverse primer sequences to prevent misinterpretation for autmomated text searching. This is an intentional design to prevent computer error.
