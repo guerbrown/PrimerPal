@@ -1,0 +1,21 @@
+# PrimerPal Config
+
+### Directory and input files
+workdir: "/home/guerbrown/software/PrimerPal"
+output: "output.txt"
+primer_sequences: "example-data/Primer-Sequences.csv"
+sample_list: "example-data/Sample-List.csv"
+
+### Column names
+column_names:
+  primer_sequences:
+    primer_name: Primer-Name
+    label: label
+  sample_list:
+    sample_id: sample_ID
+    forward_primer: Forward-Primer
+    reverse_primer: Reverse-Primer
+
+### Output format
+output_format:
+  delimiter: "\t"
